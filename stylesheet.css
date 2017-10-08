@@ -1,0 +1,186 @@
+@fontface {
+	 font-family: Pacifico;
+    src: url('Pacifico.ttf');
+}
+@fontface {
+	font-family: Raleway;
+	src: url('Raleway-Thin.ttf');
+}
+nav {
+	text-align: right;
+}
+header {
+	width: 100%;
+	height: 300px;
+	background:#4682B4;
+	background-image: url('new&old.jpg');
+	background-size:cover;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+nav ul {
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+nav a {
+	color:#4682B4;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 15px;
+	background-color: white;
+	border-radius: 5px;
+}
+nav a:hover {
+	text-decoration: underline;
+	text-transform: bold;
+	color: white;
+	background-color: #4682B4;
+}
+body {
+	font-family: Raleway;
+}
+h1 { 
+	text-align: center ;
+	font-size: 67px;
+	font-family: Pacifico;
+	color:#4682B4;
+	padding-top: 50px;
+	 }
+
+img { 
+	width: 250px;
+ 	border-radius: 10px;
+	box-shadow: 5px 5px 5px #777777;
+	margin-top: 20px;
+	 }
+ .photo_gallery {
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-evenly;
+ 	flex-wrap: wrap;
+
+ }
+.Lets_chat {
+	text-align: center;
+	font-size: 60px;
+	font-family: Raleway;
+	color: #4682B4;
+}
+ fieldset {
+ 	width: 100px;
+ 	border: 10px solid #4682B4;
+ 	padding: 20px;
+ }
+#message-board{
+	width: 500px;
+	height: 400px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.send {
+	float: right;
+	padding:5px;
+	font-size: 15px;
+	color: white;
+	background:#4682B4;
+	border-radius: 10px;
+}
+button:hover{
+	font-size: 20px;
+	font-style: bold;
+	color: #4682B4;
+	background: white;
+}
+ .greeting {
+ 	color: #4682B4;
+ 	font-style: uppercase;
+ 	font-size: 100px;
+ 	text-align: center;
+ }
+ .welcome {
+ 	font-size: 15px;
+ 	color:#4682B4;
+ 	padding: 20px;
+ }
+.queenlink {
+	text-decoration: none;
+	font-style: bold uppercase;
+	color: #4682B4;
+}
+.queenlink:hover {
+	text-decoration: underline;
+	color: #4682B4;
+}
+.list {
+	font-size: 30px;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	background: #4682B4;
+	margin-top: 40px;
+}
+@media screen and (max-width: 660px) {
+	h1 {
+		font-size: 55px;
+	}
+	nav li {
+		padding: 5px;
+		margin-top: 1px;
+	}
+	.greeting {
+		font-size: 35px;
+	}
+	.Lets_chat {
+		font-style: 35px
+	}
+}
+@media Screen and (max-width: 550px){
+	h1{ 
+		font-size: 40px;
+		margin-top: -75px;
+	}
+	nav {
+		text-align: left;
+	}
+	nav li {
+		display:flex;
+		flex-direction: column; 
+		clear: both;
+	}
+	.greeting {
+		font-size: 30px;
+	}
+	.Lets_chat {
+		font-size: 30px;
+	}
+	 fieldset {
+ 	width: 25px;
+ 	border: 5px solid #4682B4;
+ 	padding: 10px;
+ 	}
+	#message-board {
+		width: 20px;
+		height: 300px;
+		border-radius: 10px;
+		margin-top: 50px;
+		float: left;
+	}
+	.send {
+		float: left;
+	}
+	.list {
+		font-size: 15px;
+	}
+	h2 ul {
+		font-size: 8px;
+	}
+	
+
+
