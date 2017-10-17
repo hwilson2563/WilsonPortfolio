@@ -1,8 +1,8 @@
-@fontface {
+@font-face {
 	 font-family: Pacifico;
     src: url('Pacifico.ttf');
 }
-@fontface {
+@font-face {
 	font-family: Raleway;
 	src: url('Raleway-Thin.ttf');
 }
