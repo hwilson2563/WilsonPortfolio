@@ -1,13 +1,15 @@
-@fontface {
+@font-face {
 	 font-family: Pacifico;
     src: url('Pacifico.ttf');
 }
-@fontface {
+@font-face {
 	font-family: Raleway;
 	src: url('Raleway-Thin.ttf');
 }
 nav {
-	text-align: right;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: -275px;
 }
 header {
 	width: 100%;
@@ -17,6 +19,7 @@ header {
 	background-size:cover;
 	background-position: top;
 	background-repeat: no-repeat;
+	margin-top: -50px;
 }
 nav ul {
 	list-style: none;
@@ -50,7 +53,7 @@ h1 {
 	font-size: 67px;
 	font-family: Pacifico;
 	color:#4682B4;
-	padding-top: 50px;
+	padding-top:100px;
 	 }
 
 img { 
@@ -129,10 +132,13 @@ button:hover{
 @media screen and (max-width: 660px) {
 	h1 {
 		font-size: 55px;
+
+	}
+	nav {
+		margin-top: -250px;
 	}
 	nav li {
 		padding: 5px;
-		margin-top: 1px;
 	}
 	.greeting {
 		font-size: 35px;
@@ -142,17 +148,24 @@ button:hover{
 	}
 }
 @media Screen and (max-width: 550px){
-	h1{ 
-		font-size: 40px;
-		margin-top: -75px;
+	header {
+		height: 400px;
 	}
+	h1{ 
+		font-size: 30px;
+		margin-top: -50px;
+		}
 	nav {
-		text-align: left;
+		justify-content: flex-start;
+		margin-top: 0px;
 	}
 	nav li {
 		display:flex;
-		flex-direction: column; 
-		clear: both;
+		flex-direction: column;	s
+	}
+	nav a {
+		width: 200%;
+		align-content: left;
 	}
 	.greeting {
 		font-size: 30px;
